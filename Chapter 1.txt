@@ -1,0 +1,56 @@
+javac cd..
+javac chapter1.test.java
+java cd..
+java chapter1.test
+
+Applets and Applications 
+
+Java applets are programs that are designed to be embedded in an HTML 
+document. Java applications are standalone programs. Java applications can be 
+console programs that only support text output to the command line, or they can 
+be window-based applications with a GUI.
+
+Object-Oriented Programs 
+
+Java programs are intrinsically object-oriented. Object-oriented programs are 
+implemented in terms of problem-specifi c types of data rather that primitive 
+types such as characters and numerical values.
+Classes A class is a defi nition of a particular type of object. A class contains 
+specifi cations for the type of data needed to defi ne an object of the type and 
+defi nes the operations that you can carry out on objects.
+
+Class Methods 
+
+A class method is a block of code within a class defi nition that specifi es an 
+operation for an object of the class type.
+
+Constructors 
+
+A constructor is a special kind of method within a class defi nition that can create 
+objects of the class type.
+
+Java Source Files 
+
+Java source code is stored in fi les with the extension .java.
+
+Compiled Java Code 
+
+Java programs are compiled to bytecodes, which are instructions for the .JVM. 
+The JVM is the same on all the computers on which it is implemented, thus 
+ensuring the portability of Java programs.
+
+Java Object Code 
+
+Files Java object code is stored in fi les with the extension .class.
+
+Java Program Execution 
+
+Java programs are executed by the Java interpreter, which analyzes the 
+bytecodes and carries out the operations they specify.
+
+Unicode 
+
+Unicode is a 16-bit character encoding that enables multiple national language 
+character sets to be supported. Java source programs are represented internally 
+as Unicode and Java supports programming applications with multilingual 
+capability
