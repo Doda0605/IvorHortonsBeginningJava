@@ -1,0 +1,54 @@
+Primitive types 
+
+Primitive types are types that are built in to the Java language. Variables of the 
+primitive types store numerical values that are integers or fl oating-point values, 
+boolean values, or Unicode characters.
+
+Integer types 
+
+The integer types are byte, short, int, and long, and variables of these types 
+occupy 1, 2, 4, and 8 bytes, respectively.
+
+Storing characters 
+
+Variables of type char occupy 2 bytes and can store a single Unicode character code.
+
+Storing logical values 
+
+Variables of type boolean can have only the value true or the value false.
+
+Floating-point types 
+
+The fl oating-point types are float and double, occupying 4 and 8 bytes 
+respectively.
+
+Integer calculations 
+
+Integer expressions are evaluated using 64-bit operations for variables of type long
+and using 32-bit operations for all other integer types. You must, therefore, add a cast 
+for all assignment operations storing a result of type byte, type short, or type char.
+
+Floating-point calculations
+
+A fl oating-point operation can produce a result that is outside the range of the type of 
+the result. Values that are outside the range of a fl oating-point type are represented 
+by a special value that is displayed as either Infinity or -Infinity. The result of a 
+fl oating-point operation can also be indeterminate, which is displayed as NaN. 
+
+Casting 
+
+You can convert a value of one type to another by using an explicit cast. A cast is 
+automatically supplied where necessary for op= assignment operations. You cannot 
+cast to or from values of type boolean.
+
+Order of operations 
+
+The order of execution of operators in an expression is determined by their 
+precedence. Where operators are of equal precedence, the order of execution is 
+determined by their associativity.
+
+Enumeration types 
+
+You use an enumeration type to defi ne variables that can only be assigned values 
+from a fi xed set that you specifi ed as part of the enumeration. An enumeration type 
+cannot be defi ned within a method.
